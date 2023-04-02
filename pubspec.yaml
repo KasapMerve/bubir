@@ -1,0 +1,336 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/all-screens/images/iconly-bold-star.png
+    - assets/cover/images/mask.png
+    - assets/cover/images/change-color.png
+    - assets/all-screens/images/product-category-icons.png
+    - assets/all-screens/images/product-category-icons-PJM.png
+    - assets/all-screens/images/mask-group.png
+    - assets/all-screens/images/app-navigation.png
+    - assets/all-screens/images/iconly-bold-edit-square.png
+    - assets/cover/images/auto-group-gehk.png
+    - assets/cover/images/mask-Dru.png
+    - assets/all-screens/images/track.png
+    - assets/all-screens/images/product-category-icons-wV7.png
+    - assets/all-screens/images/mask-group-WDK.png
+    - assets/all-screens/images/icons.png
+    - assets/all-screens/images/group-128.png
+    - assets/all-screens/images/fill.png
+    - assets/cover/images/change-color-SJy.png
+    - assets/all-screens/images/frame-10.png
+    - assets/all-screens/images/mask-group-QBF.png
+    - assets/all-screens/images/indir-1.png
+    - assets/all-screens/images/vector-14.png
+    - assets/all-screens/images/fill-f57.png
+    - assets/all-screens/images/vector-14-BXs.png
+    - assets/all-screens/images/vector-14-nNZ.png
+    - assets/all-screens/images/component-1.png
+    - assets/all-screens/images/vector.png
+    - assets/all-screens/images/iconly-light-outline-filter.png
+    - assets/all-screens/images/product-category-icons-uz5.png
+    - assets/all-screens/images/icons-YeZ.png
+    - assets/all-screens/images/iconly-bold-star-oVw.png
+    - assets/all-screens/images/icons-kMs.png
+    - assets/all-screens/images/indir-5-1.png
+    - assets/cover/images/mask-12u.png
+    - assets/all-screens/images/icons-Y2q.png
+    - assets/all-screens/images/group.png
+    - assets/all-screens/images/component-1-q5f.png
+    - assets/all-screens/images/app-navigation-YEy.png
+    - assets/all-screens/images/fill-Tcq.png
+    - assets/all-screens/images/vector-14-oAu.png
+    - assets/all-screens/images/image-8.png
+    - assets/all-screens/images/vector-14-ZwB.png
+    - assets/all-screens/images/iconly-bold-star-rfP.png
+    - assets/all-screens/images/heart-solid.png
+    - assets/all-screens/images/iconly-light-outline-search.png
+    - assets/all-screens/images/vector-94.png
+    - assets/all-screens/images/iconly-bold-star-n1B.png
+    - assets/all-screens/images/vector-14-CsX.png
+    - assets/all-screens/images/iconly-bold-star-gRK.png
+    - assets/all-screens/images/component-1-cJy.png
+    - assets/all-screens/images/icons-YTX.png
+    - assets/all-screens/images/mask-group-3Ly.png
+    - assets/all-screens/images/rectangle-11106.png
+    - assets/all-screens/images/indir-7-1.png
+    - assets/all-screens/images/track-r9j.png
+    - assets/all-screens/images/iconly-bold-star-98q.png
+    - assets/all-screens/images/vector-14-Evy.png
+    - assets/all-screens/images/vector-14-ZiM.png
+    - assets/all-screens/images/vector-14-mhw.png
+    - assets/all-screens/images/vector-14-Q45.png
+    - assets/all-screens/images/vector-14-Kwj.png
+    - assets/all-screens/images/product-category-icons-rRs.png
+    - assets/all-screens/images/vector-BDF.png
+    - assets/all-screens/images/searchbar.png
+    - assets/cover/images/auto-group-n7a5.png
+    - assets/all-screens/images/vector-14-EBX.png
+    - assets/all-screens/images/intersect.png
+    - assets/all-screens/images/vector-94-XRX.png
+    - assets/all-screens/images/track-VtR.png
+    - assets/all-screens/images/icons-C29.png
+    - assets/all-screens/images/iconly-bold-star-uSM.png
+    - assets/readme/images/ellipse-56-bg.png
+    - assets/all-screens/images/indir-8-1.png
+    - assets/all-screens/images/vector-14-81B.png
+    - assets/all-screens/images/iconly-bold-star-xnq.png
+    - assets/cover/images/change-color-2w7.png
+    - assets/readme/images/bunny.png
+    - assets/all-screens/images/images-3-1.png
+    - assets/all-screens/images/image-8-V2V.png
+    - assets/all-screens/images/image-8-bh7.png
+    - assets/cover/images/auto-group-by7f.png
+    - assets/all-screens/images/vector-12.png
+    - assets/all-screens/images/component-1-Cfo.png
+    - assets/all-screens/images/iconly-bold-3-user.png
+    - assets/all-screens/images/iconly-bold-star-vKP.png
+    - assets/all-screens/images/indir-6-1.png
+    - assets/all-screens/images/image-8-3Mf.png
+    - assets/all-screens/images/vector-14-jkH.png
+    - assets/all-screens/images/frame-10-4Gm.png
+    - assets/all-screens/images/app-navigation-NoF.png
+    - assets/all-screens/images/mask-group-h4q.png
+    - assets/all-screens/images/vizz-1.png
+    - assets/all-screens/images/image-8-AUD.png
+    - assets/all-screens/images/iconly-bold-star-GXF.png
+    - assets/all-screens/images/image-10.png
+    - assets/readme/images/plants.png
+    - assets/all-screens/images/product-category-icons-nBf.png
+    - assets/all-screens/images/icons-Vbs.png
+    - assets/all-screens/images/frame-10-wim.png
+    - assets/all-screens/images/group-128-s25.png
+    - assets/cover/images/auto-group-yzws.png
+    - assets/all-screens/images/mask-group-k5s.png
+    - assets/all-screens/images/vector-14-Gpu.png
+    - assets/all-screens/images/sgzaoxz7zye91-1.png
+    - assets/cover/images/cruelty-free.png
+    - assets/cover/images/auto-group-3stw.png
+    - assets/all-screens/images/vector-12-5qw.png
+    - assets/cover/images/auto-group-hpad.png
+    - assets/cover/images/shadow-bg.png
+    - assets/all-screens/images/vizz-1-mSm.png
+    - assets/all-screens/images/vector-14-2ay.png
+    - assets/all-screens/images/vizz-1-4XX.png
+    - assets/all-screens/images/vizz-1-dBK.png
+    - assets/all-screens/images/rectangle-11106-FnV.png
+    - assets/all-screens/images/component-1-rfo.png
+    - assets/all-screens/images/rectangle-11106-dt9.png
+    - assets/all-screens/images/vector-14-iFw.png
+    - assets/all-screens/images/component-1-VjB.png
+    - assets/all-screens/images/image-6.png
+    - assets/all-screens/images/component-1-gh3.png
+    - assets/all-screens/images/component-1-ra9.png
+    - assets/all-screens/images/vector-14-KQH.png
+    - assets/all-screens/images/depositphotos83462502-stock-illustration-gun-toy-1.png
+    - assets/all-screens/images/rectangle-11106-Nay.png
+    - assets/all-screens/images/vector-94-ahs.png
+    - assets/all-screens/images/component-1-DHP.png
+    - assets/all-screens/images/depositphotos85555696-stock-illustration-dinosaurus-toy-1.png
+    - assets/all-screens/images/indir-2-1.png
+    - assets/all-screens/images/component-1-Yb7.png
+    - assets/components/images/vector-kvh.png
+    - assets/components/images/property-1stats.png
+    - assets/components/images/vector-14-P8R.png
+    - assets/all-screens/images/vector-12-7KK.png
+    - assets/all-screens/images/image-5.png
+    - assets/all-screens/images/image-5-CVB.png
+    - assets/components/images/group-23.png
+    - assets/all-screens/images/hamburger-menu.png
+    - assets/all-screens/images/component-1-SJh.png
+    - assets/components/images/group-9.png
+    - assets/components/images/iconly-light-outline-filter-tUm.png
+    - assets/all-screens/images/group-74.png
+    - assets/components/images/property-1shop.png
+    - assets/all-screens/images/app-navigation-eRj.png
+    - assets/components/images/cruelty-free-aJy.png
+    - assets/components/images/property-1profile.png
+    - assets/all-screens/images/component-1-7aD.png
+    - assets/components/images/image-5-FRo.png
+    - assets/components/images/vector-14-1ZP.png
+    - assets/all-screens/images/component-1-ZJV.png
+    - assets/components/images/vegan.png
+    - assets/all-screens/images/vector-14-5mP.png
+    - assets/components/images/vector-14-ynD.png
+    - assets/components/images/property-1home.png
+    - assets/components/images/maps-bg.png
+    - assets/all-screens/images/searchbar-q6V.png
+    - assets/all-screens/images/component-1-b2M.png
+    - assets/components/images/iconly-light-outline-search-omw.png
+    - assets/components/images/iconly-light-outline-search-zvH.png
+    - assets/components/images/image-8-V6M.png
+    - assets/all-screens/images/vector-mo3.png
+    - assets/components/images/group-6.png
+    - assets/components/images/group-21.png
+    - assets/components/images/group-22.png
+    - assets/components/images/group-24.png
+    - assets/components/images/cruelty-free-kfP.png
+    - assets/components/images/cruelty-free-oDF.png
+    - assets/components/images/eco-friendly.png
+    - assets/components/images/vegan-uzD.png
+    - assets/components/images/eco-friendly-Zid.png
+    - assets/components/images/eco-friendly-mk9.png
+    - assets/components/images/vegan-K65.png
+    - assets/components/images/track-pcu.png
+    - assets/components/images/fill-oGR.png
+    - assets/components/images/vector-14-za1.png
+    - assets/components/images/fill-4b7.png
+    - assets/components/images/track-37b.png
+    - assets/components/images/fill-Zmw.png
+    - assets/components/images/track-pgm.png
+    - assets/components/images/fill-rqB.png
+    - assets/components/images/track-P7b.png
+    - assets/components/images/track-jL1.png
+    - assets/components/images/fill-azR.png
+    - assets/components/images/track-ccu.png
+    - assets/components/images/icons-hnu.png
+    - assets/components/images/icons-GFX.png
+    - assets/components/images/group-137.png
+    - assets/components/images/mask-group-pJR.png
+    - assets/components/images/iconly-bold-star-M3B.png
+    - assets/components/images/icons-WVb.png
+    - assets/components/images/fill-ELu.png
+    - assets/components/images/group-138.png
+    - assets/components/images/iconly-bold-star-bbB.png
+    - assets/components/images/rectangle-227.png
+    - assets/components/images/iconly-bold-star-qAM.png
+    - assets/components/images/iconly-bold-star-eQd.png
+    - assets/components/images/group-140.png
+    - assets/components/images/iconly-bold-star-Seq.png
+    - assets/components/images/mask-group-FoB.png
+    - assets/components/images/mask-group-xP7.png
+    - assets/components/images/group-141.png
+    - assets/components/images/icons-yqP.png
+    - assets/components/images/icons-RXB.png
+    - assets/components/images/icons-nay.png
+    - assets/components/images/group-123.png
+    - assets/components/images/icons-Rkq.png
+    - assets/components/images/typeprivacy-statedefault.png
+    - assets/components/images/typelog-out-statedefault.png
+    - assets/components/images/typehide-statedefault.png
+    - assets/components/images/typesearch-history-statedefault.png
+    - assets/components/images/typenotification-indicator-statedefault.png
+    - assets/components/images/typeheart-stateenabled.png
+    - assets/components/images/typeshow-statedefault.png
+    - assets/components/images/vector-v4m.png
+    - assets/components/images/typeheart-statedefault.png
+    - assets/components/images/typeaccount-settings-statedefault.png
+    - assets/components/images/vector-14-jZo.png
+    - assets/components/images/typeprofile-statedefault.png
+    - assets/components/images/typestats-statedefault.png
+    - assets/components/images/typebody-care.png
+    - assets/components/images/typecleaning.png
+    - assets/components/images/product-category-icons-vxu.png
+    - assets/components/images/group-4Nh.png
+    - assets/components/images/product-category-icons-Xss.png
+    - assets/colors/images/shades.png
+    - assets/components/images/vector-14-wc1.png
+    - assets/colors/images/shades-tr1.png
+    - assets/colors/images/group-3.png
+    - assets/components/images/vector-QJH.png
+    - assets/components/images/icons-hoB.png
+    - assets/colors/images/shades-dRw.png
+    - assets/components/images/typeskincare.png
+    - assets/components/images/typeall-products.png
+    - assets/colors/images/shades-DVw.png
+    - assets/colors/images/shades-jjB.png
+    - assets/components/images/typehygiene.png
+    - assets/components/images/typeproducts-statedefault.png
+    - assets/colors/images/shades-eGD.png
+    - assets/colors/images/shades-x8m.png
+    - assets/components/images/typenotifications-statedefault.png
+    - assets/components/images/typehome-statedefault.png
+    - assets/components/images/vector-14-8iH.png
+    - assets/components/images/vector-14-SKo.png
+    - assets/components/images/typemakeup.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
